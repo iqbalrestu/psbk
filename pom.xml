@@ -107,8 +107,11 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version>
 		</dependency>
-
-
+	 <dependency>
+	  <groupId>org.eclipse.jetty</groupId>
+	  <artifactId>jetty-servlet</artifactId>
+	  <version>9.3.9.M1</version>
+	 </dependency>
 	</dependencies>
 	<build>
 		<plugins>
